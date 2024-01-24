@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333; /* Màu sắc chữ */
+}
+
+input[type="text"],
+input[type="number"],input[type="file"] {
+    width: 30%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+}
+
+.row{
+    max-width: 100%;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.row a{
+    text-decoration: none;
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
